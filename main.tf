@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "wiegme"
+
+    workspaces {
+      name = "azure-playgroun"
+    }
+  }
+}
+
 # Configure the Azure provider
 terraform {
   required_providers {
