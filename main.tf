@@ -19,12 +19,3 @@ resource "azurerm_resource_group" "rg" {
   name     = "myTFResourceGroup"
   location = "westus2"
 }
-terraform {
-  cloud {
-    organization = "wiegme"
-
-    workspaces {
-      name = "azure-playgroun"
-    }
-  }
-}
