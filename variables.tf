@@ -11,8 +11,8 @@ variable "client_id" {
 variable "tenant_id" {
   type        = string
   description = "Tenant ID"
-
 }
+
 variable "resource_location" {
   type        = string
   description = "The Azure region where resources should be located."
@@ -21,3 +21,4 @@ variable "resource_location" {
 variable "subscription_id" {
   type        = string 
   description = "The Azure subscription where resources should be located."
+}
